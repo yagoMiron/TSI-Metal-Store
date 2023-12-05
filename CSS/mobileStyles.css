@@ -1,0 +1,60 @@
+.mobile-main {
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card {
+  display: flex;
+  margin: 50px 0px;
+  flex-direction: column;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.8);
+  max-width: 40vw;
+  padding: 20px;
+  margin-bottom: auto;
+}
+.preco-unidade {
+  display: flex;
+  justify-content: end;
+}
+
+.image_produto {
+  margin: auto;
+  width: 90%;
+}
+.titulo_card{
+  text-align: center;
+}
+
+
+
+.preco {
+  font-weight: bolder;
+  font-size: 38px;
+}
+.preco-antigo {
+  text-align: center;
+  font-size: 24px;
+}
+.lateral-preco {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.botao-comprar {
+  margin-top: 10px;
+  background-color: rgb(182, 1, 1);
+  border-radius: 15px;
+  color: white;
+  font-size: 32px;
+}
+.botao-comprar:hover {
+  cursor: pointer;
+  background-color: red;
+  color: black;
+}
+.quantidade_produto{
+  margin-left: 20px;
+  font-size: 30px;
+}
